@@ -10,6 +10,6 @@ int main(){
     int a = 10 ;
     int b = 10 ;
 
-    sum(int a ,int b);
+    sum(a,b);
     return 0;
 }
