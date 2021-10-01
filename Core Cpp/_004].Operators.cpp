@@ -6,14 +6,12 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int a, b ;
+    int a = 10, b = 2 ;
 
-    cout << "Enter First Number : ";
-    cin >> a;
+    cout << " First Number : " << a << endl ;
 
-    cout << "Enter Second Number : " ;
-    cin >> b;
-
+    cout << "Second Number : "  << b << endl;
+    
     cout << "Arithmetic Operators : + - * / %" << endl;
 
     cout << " + " << (a+b) << endl;
