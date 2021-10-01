@@ -4,21 +4,25 @@ Since the C++ language varies so heavily between versions (e.g. C++0x, C++11, C+
 
 ## Table of Contents
 
-| **SNo.** | **Contents** |
-| -------  | ------------ |
-| 1.       | [Class Syntax](#11-class-syntax) |
-| 2.       | [Inheritance](#12-inheritance) |
-| 3.       | [polymorphism](#13-class-polymorphism |
-| 4.       | [Methods](#14-special-methods |
-| 5.       | [Operator Overloading](#15-operator-overloading) |
-| 6.       | [Templates](#16-templates) |
-| 7.       | [General C++ Syntax](#20-general-c-syntax) |
-| 8.       | [Preprocessor Tokens](#24-preprocessor-tokens)
-| 9.       | [Strings](#25-strings-stdstring) |
-| 10.      | [Iterators](#26-iterators-stditerator) |
-| 11.      | [Exceptions](#27-exceptions) |
-| 12.      | [Lambdas](#28-lambdas) |
- 
+| **SNo.**   | **Contents** |
+| -------    | ------------ |
+|    1.      |[C++ Classes](#10-c-classes) |
+|    2.      |[Class Syntax](#11-class-syntax) |
+|    3.      |[Inheritance](#12-inheritance) |
+|    4.      |[Class Polymorphism](#13-class-polymorphism) |
+|    5.      |[Special Methods](#14-special-methods) |
+|    6.      |[Operator Overloading](#15-operator-overloading) |
+|    7.      |[Templates](#16-templates) |
+|    8.      |[General C++ Syntax](#20-general-c-syntax) |
+|    9.      |[Namespaces](#21-namespaces) |
+|   10.      |[References and Pointers](#22-references-and-pointers) |
+|   11.      |[Keywords](#23-keywords) |
+|   12.      |[Preprocessor Tokens](#24-preprocessor-tokens) |
+|   13.      |[Strings](#25-strings-stdstring) |
+|   14.      |[Iterators](#26-iterators-stditerator) |
+|   15.      |[Exceptions](#27-exceptions) |
+|   16.      |[Lambdas](#28-lambdas) |
+
 
 <br /><br />
 
