@@ -9,7 +9,7 @@ int main()
     int test[3][3];  //declaration of 2D array   
 
     //initialization 
-    
+
     test[0][0]=5;    
     test[0][1]=10;  
     test[0][2]= 13 ;
@@ -30,5 +30,23 @@ int main()
         }  
         cout<<"\n"; //new line at each row   
     } 
+
+    //initialization and declaration at same time 
+
+    int arr[3][3] =  
+    {  
+        {2, 5, 5},  
+        {4, 0, 3},  
+        {9, 1, 8}  };  //declaration and initialization    
+    //traversal    
+    for(int i = 0; i < 3; ++i)  
+    {  
+        for(int j = 0; j < 3; ++j)  
+        {  
+            cout<< arr[i][j]<<" ";  
+        }  
+        cout<<"\n"; //new line at each row   
+    }  
+    
     return 0;
 }
