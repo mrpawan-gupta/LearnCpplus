@@ -3,49 +3,49 @@ using namespace std;
 
 class Employee
 {
-private:
     int id;
-    static int count; // static variable is initialised for the class
-    // and will get updated ..
+    static int count;
 
 public:
-    void setData(void){
-        cout << "Enter the id : ";
+    void setData(void)
+    {
+        cout << "Enter the id" << endl;
         cin >> id;
         count++;
     }
-    void getdata(void){
-        cout <<"Id of the employee is : " << id  << " of employee number " << count <<endl;
+    void getData(void)
+    {
+        cout << "The id of this employee is " << id << " and this is employee number " << count << endl;
     }
 
-    /* static function only have access to static variavle
-     and other static function */
-
-    static void getCount(void){ 
-        cout << "The value of counter is : " << count << endl;
-
+    // static function only have acces to static variables
+    static void getCount(void)
+    {
+        // cout<<id; // throws an error
+        cout << "The value of count is " << count << endl;
     }
 };
 
-int Employee ::count; // int Employee :: Count = 100 ; is aceeptable to set base value of count
+// Count is the static data member of class Employee
+int Employee::count; // Default value is 0
 
-/* the value of count will not be reinitialized with new object.
-only value is taken and updated by all object.
-
-the default value is of static variable
-*/
 int main()
 {
+    Employee harry, rohan, lovish;
+    // harry.id = 1;
+    // harry.count=1; // cannot do this as id and count are private
 
-    Employee Pawan,Sneha;
+    harry.setData();
+    harry.getData();
+    Employee::getCount();
 
-    Pawan.setData();
-    Pawan.getdata();
-    Employee :: getCount();
+    rohan.setData();
+    rohan.getData();
+    Employee::getCount();
 
-    Sneha.setData();
-    Sneha.getdata();
-    Employee :: getCount();
+    lovish.setData();
+    lovish.getData();
+    Employee::getCount();
 
     return 0;
 }
