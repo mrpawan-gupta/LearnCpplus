@@ -44,5 +44,5 @@ int main(){
 1. not in scope of class (class ka hissa nai hai!)
 2. it cannot be called from the object of that class 
 i.e c1.sumComplexx() == is Invalid ;
-3. Can be declared Anywhere in class I.e public or proivate
+3. Can be declared Anywhere in class I.e public or private
 */
